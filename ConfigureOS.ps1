@@ -14,7 +14,6 @@ $addsTools = ""
 # Set Time Zone
 Write-Verbose 'Set Timezone & Usage Location' -Verbose
 Set-TimeZone -Id 'China Standard Time'
-Set-WinHomeLocation -GeoId 104
 
 # Before Setting Static IP, Dhcp must be disabled first
 Write-Verbose 'Disable Dhcp' -Verbose
